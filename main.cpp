@@ -4,7 +4,7 @@
 int main()
 {
 	Glogger logger("test.txt",false );
-	logger.log("Hello", "main()", &std::cout);
+	logger.log("Hello World", "main()", &std::cout);
 	logger.flush(std::cout );
 
 	std::cin.get( );
